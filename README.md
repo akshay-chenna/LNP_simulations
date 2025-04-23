@@ -1,5 +1,5 @@
 # LNP_simulations
 Lipid nanoparticle simulations using QM, AA, CG:
-CG: Martini3
-QM: NNPs, pySCF-DM21, ORCA
-AA: Charmm36m (GROMACS)
+1. CG: Martini3
+2. QM: NNPs, pySCF-DM21, ORCA
+3. AA: Charmm36m (GROMACS)
