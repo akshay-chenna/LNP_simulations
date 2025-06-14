@@ -1,0 +1,21 @@
+define                   = -DFLEXIBLE
+integrator               = steep
+nsteps                   = 50000
+nstxout                  = 0
+nstenergy                = 5000
+nstlog                   = 5000 
+
+cutoff-scheme            = Verlet
+nstlist                  = 20
+pbc                      = xyz
+verlet-buffer-tolerance  = 0.005
+
+coulombtype              = reaction-field 
+rcoulomb                 = 1.1
+epsilon_r                = 15    ; 2.5 (with polarizable water)
+epsilon_rf               = 0
+vdw_type                 = cutoff  
+vdw-modifier             = Potential-shift-verlet
+rvdw                     = 1.1
+
+emtol                    = 1
