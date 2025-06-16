@@ -7,112 +7,103 @@ L59  1
 
 [ atoms ]
 ; nr type resnr residue atom cgnr charge mass
-   1    TP1        1    L59     OH         1       0      29
+   1    P1         1    L59     OH         1       0      58
    2    N4a        1    L59     N1         2       0      56
-   3    TC3        1    L59     CZ1        3       0      14
-   4    TC3        1    L59     CZ2        4       0	  14
-   5    SN3a       1    L59     N2         5       0      56
-   6    TC2        1    L59     CZ3        6       0      14
-   7    SN4a       2    L59     OA1        7       0      58
-   8    SC2        2    L59     CA1        8       0      41
-   9    C2         2    L59     CA2        9       0      56
-  10    C1         2    L59     CA3       10       0      43
-  11    C1         2    L59     CA4       11       0      43
-  12    C2         2    L59     CA5       12       0      56
-  13    SN4a       3    L59     OB1       13       0      58
-  14    SC2        3    L59     CB1       14       0      41
-  15    C2         3    L59     CB2       15       0      56
-  16    C1         3    L59     CB3       16       0      43
-  17    C2         3    L59     CB4       17       0	  56
-  18    C1         3    L59     CB5       18       0      43
-  19    SC2        2    L59     CB6       19       0      42
-  20    TC2        2    L59     CB7       20       0      28
-  21    TC2        3    L59     CA6       21       0      28
-  22    SC2        3    L59     CA7       22       0      42
+   3    TC3        1    L59     CZ         3       0      28
+   4    TN3a       1    L59     NZ         4       0	  42
+   5    SC2        1    L59     CA1        5       0      42
+   6    TC1        1    L59     CA2        6       0      28
+   7    SN4a       1    L59     OA         7       0      58
+   8    SC2        1    L59     CA3        8       0      41
+   9    C1         1    L59     CA4        9       0      56
+  10    SC1        1    L59     CA5       10       0      43
+  11    C1         1    L59     CA6       11       0      56
+  12    SC1        1    L59     CA7       12       0      43
+  13    SC2        1    L59     CB1       13       0      42
+  14    TC1        1    L59     CB2       14       0      28
+  15    SN4a       1    L59     OB        15       0      58
+  16    SC2        1    L59     CB3       16       0      41
+  17    C1         1    L59     CB4       17       0	  56
+  18    SC1        1    L59     CB5       18       0      43
+  19    C1         1    L59     CB6       19       0      56
+  20    SC1        1    L59     CB7       20       0      43
 
 [bonds]
 ; i j  funct    length   force.c.
-  1 3   1      0.239      9257.07 ; rmsd:     1.47
-  1 4   1      0.238      9991.96 ; rmsd:     1.32
-  2 3   1      0.291     10838.89 ; rmsd:     2.46
-  2 4   1      0.289     10663.20 ; rmsd:     2.36
-  2 6   1      0.262      6292.59 ; rmsd:     2.25
-  5 6   1      0.266      4436.62 ; rmsd:     1.45
-  7 8   1      0.362     14729.76 ; rmsd:     0.81
-  8 9   1      0.400      2618.23 ; rmsd:     1.10
-  9 10  1      0.419      3188.30 ; rmsd:     1.37
- 11 12  1      0.424      2961.92 ; rmsd:     1.73
- 12 8   1      0.400      2309.11 ; rmsd:     1.53
- 13 14  1      0.362     13393.41 ; rmsd:     0.82
- 14 15  1      0.397      3081.54 ; rmsd:     1.35
- 15 16  1      0.419      3273.92 ; rmsd:     1.23
- 17 14  1      0.405      2721.60 ; rmsd:     1.86
- 17 18  1      0.427      3093.19 ; rmsd:     1.55
- 19 13  1      0.313      5592.11 ; rmsd:     1.70
- 19 20  1      0.307      5036.34 ; rmsd:     1.47
- 20 5   1      0.305      4347.53 ; rmsd:     1.61
- 21 5   1      0.309      4521.39 ; rmsd:     1.03
- 21 22  1      0.303      6603.24 ; rmsd:     1.66
- 22 7   1      0.314      6311.92 ; rmsd:     1.67
+  1 2   1      0.288     13618.34 ; rmsd:     3.64
+  2 3   1      0.306      5903.99 ; rmsd:     1.81
+  3 4   1      0.265      7840.29 ; rmsd:     0.96
+  4 5   1      0.345      3286.89 ; rmsd:     0.99
+  5 6   1      0.306      4968.33 ; rmsd:     1.56
+  6 7   1      0.267     11016.93 ; rmsd:     1.59
+  7 8   1      0.361     13595.46 ; rmsd:     0.93
+  8 9   1      0.399      2912.45 ; rmsd:     2.16
+  9 10  1      0.432      3289.89 ; rmsd:     1.38
+  8 11  1      0.400      2499.65 ; rmsd:     1.34
+ 11 12  1      0.422      2812.09 ; rmsd:     1.76
+  4 13  1      0.341      2735.96 ; rmsd:     1.13
+ 13 14  1      0.311      5723.36 ; rmsd:     1.62
+ 14 15  1      0.265     10572.15 ; rmsd:     1.62
+ 15 16  1      0.362     12311.21 ; rmsd:     1.14
+ 16 17  1      0.394      2444.78 ; rmsd:     1.21
+ 17 18  1      0.419      2499.81 ; rmsd:     1.60
+ 16 19  1      0.402      2487.21 ; rmsd:     1.45
+ 19 20  1      0.425      2817.01 ; rmsd:     1.89
+
 [constraints]
 ; i j  funct    length  
 
 [angles]
 ; i     j       k       funct   angle   force_constant
-  3     1       4          1     85.39    250.50 ; rmsd:     1.18
-  3     2       4          1     67.25    460.48 ; rmsd:     2.37
-  3     2       6          1     117.38     20.52 ; rmsd:     1.11
-  4     2       6          1     117.67     17.79 ; rmsd:     0.99
-  1     3       2          1     83.25     79.62 ; rmsd:     2.35
-  1     4       2          1     83.93     76.23 ; rmsd:     2.29
-  6     5       20         1     111.19     17.62 ; rmsd:     1.05
-  6     5       21         1     114.32     18.58 ; rmsd:     1.36
- 20     5       21         1     117.85     22.79 ; rmsd:     1.26
-  2     6       5          1     124.73     27.64 ; rmsd:     1.70
-  8     7       22         1     129.55     24.76 ; rmsd:     1.21
-  7     8       9          1     104.94     22.07 ; rmsd:     1.48
-  7     8       12         1     93.79     23.88 ; rmsd:     1.57
-  9     8       12         1     131.36     18.38 ; rmsd:     1.36
-  8     9       10         1     137.72     21.29 ; rmsd:     0.97
-  8     12      11         1     141.01     18.25 ; rmsd:     0.84
- 14     13      19         1     127.39     27.73 ; rmsd:     1.06
- 13     14      15         1     98.66     31.93 ; rmsd:     2.00
- 13     14      17         1     100.70     18.46 ; rmsd:     1.80
- 15     14      17         1     136.58     22.72 ; rmsd:     1.20
- 14     15      16         1     140.30     18.21 ; rmsd:     0.96
- 14     17      18         1     143.34     16.50 ; rmsd:     1.10
- 13     19      20         1     136.37     26.49 ; rmsd:     1.29
-  5     20      19         1     142.57     14.35 ; rmsd:     1.58
-  5     21      22         1     143.08     13.44 ; rmsd:     1.39
-  7     22      21         1     135.00     29.11 ; rmsd:     1.33
-;;  3     1       4          2     85.51    257.59 ; Harmonic-Cos (Gromos96) potential rmsd:     1.23
-;;  3     2       4          2     67.66    530.59 ; Harmonic-Cos (Gromos96) potential rmsd:     2.45
-;;  3     2       6          2     109.25     32.37 ; Harmonic-Cos (Gromos96) potential rmsd:     1.73
-;;  4     2       6          2     109.25     28.10 ; Harmonic-Cos (Gromos96) potential rmsd:     1.81
-;;  1     3       2          2     83.88     86.44 ; Harmonic-Cos (Gromos96) potential rmsd:     2.42
-;;  1     4       2          2     84.51     82.68 ; Harmonic-Cos (Gromos96) potential rmsd:     2.36
-;;  6     5       20         2     104.08     27.45 ; Harmonic-Cos (Gromos96) potential rmsd:     1.75
-;;  6     5       21         2     106.88     28.46 ; Harmonic-Cos (Gromos96) potential rmsd:     1.80
-;; 20     5       21         2     111.12     35.36 ; Harmonic-Cos (Gromos96) potential rmsd:     1.65
-;;  2     6       5          2     116.52     42.04 ; Harmonic-Cos (Gromos96) potential rmsd:     2.33
-;;  8     7       22         2     120.44     46.28 ; Harmonic-Cos (Gromos96) potential rmsd:     1.47
-;;  7     8       9          2     99.15     33.84 ; Harmonic-Cos (Gromos96) potential rmsd:     1.59
-;;  7     8       12         2     91.81     32.33 ; Harmonic-Cos (Gromos96) potential rmsd:     1.33
-;;  9     8       12         2     121.87     32.28 ; Harmonic-Cos (Gromos96) potential rmsd:     1.64
-;;  8     9       10         2     127.25     38.30 ; Harmonic-Cos (Gromos96) potential rmsd:     1.17
-;;  8     12      11         2     228.12     30.82 ; Harmonic-Cos (Gromos96) potential rmsd:     1.16
-;; 14     13      19         2     118.93     51.98 ; Harmonic-Cos (Gromos96) potential rmsd:     1.76
-;; 13     14      15         2     95.53     44.21 ; Harmonic-Cos (Gromos96) potential rmsd:     1.29
-;; 13     14      17         2     96.32     27.00 ; Harmonic-Cos (Gromos96) potential rmsd:     1.73
-;; 15     14      17         2     126.34     38.99 ; Harmonic-Cos (Gromos96) potential rmsd:     1.55
-;; 14     15      16         2     130.15     31.40 ; Harmonic-Cos (Gromos96) potential rmsd:     1.28
-;; 14     17      18         2     180.00     14.63 ; Harmonic-Cos (Gromos96) potential rmsd:     1.48
-;; 13     19      20         2     126.79     44.84 ; Harmonic-Cos (Gromos96) potential rmsd:     2.18
-;;  5     20      19         2     229.71     29.20 ; Harmonic-Cos (Gromos96) potential rmsd:     1.42
-;;  5     21      22         2     180.00     11.88 ; Harmonic-Cos (Gromos96) potential rmsd:     1.63
-;;  7     22      21         2     125.30     49.64 ; Harmonic-Cos (Gromos96) potential rmsd:     2.20
+  1     2       3          1     133.45     29.01 ; rmsd:     0.99
+  2     3       4          1     137.40     14.52 ; rmsd:     1.51
+  3     4       5          1     109.59     28.68 ; rmsd:     1.34
+  3     4       13         1     108.75     28.46 ; rmsd:     1.48
+  4     5       6          1     138.65     25.46 ; rmsd:     1.06
+  4     13      14         1     139.48     23.71 ; rmsd:     0.59
+  5     4       13         1     130.12     20.59 ; rmsd:     1.25
+  5     6       7          1     146.39     13.68 ; rmsd:     2.16
+  6     7       8          1     129.44     34.90 ; rmsd:     1.12
+  7     8       9          1     97.81     26.23 ; rmsd:     1.44
+  7     8       11         1     97.07     19.49 ; rmsd:     1.50
+  8     9       10         1     143.21     21.70 ; rmsd:     1.16
+  8     11      12         1     140.76     19.50 ; rmsd:     1.27
+  9     8       11         1     138.64     16.79 ; rmsd:     1.07
+ 13     14      15         1     145.29     17.40 ; rmsd:     1.98
+ 14     15      16         1     129.12     30.43 ; rmsd:     1.18
+ 15     16      17         1     97.44     24.32 ; rmsd:     1.12
+ 15     16      19         1     101.28     18.57 ; rmsd:     1.55
+ 16     17      18         1     138.00     17.82 ; rmsd:     0.89
+ 16     19      20         1     138.95     18.98 ; rmsd:     0.98
+ 17     16      19         1     138.65     23.86 ; rmsd:     0.85
+;;  1     2       3          2     123.69     53.53 ; Harmonic-Cos (Gromos96) potential rmsd:     1.84
+;;  2     3       4          2     125.38     25.44 ; Harmonic-Cos (Gromos96) potential rmsd:     1.51
+;;  3     4       5          2     103.84     42.76 ; Harmonic-Cos (Gromos96) potential rmsd:     1.42
+;;  3     4       13         2     103.78     40.29 ; Harmonic-Cos (Gromos96) potential rmsd:     1.66
+;;  4     5       6          2     128.69     46.07 ; Harmonic-Cos (Gromos96) potential rmsd:     1.79
+;;  4     13      14         2     129.38     41.47 ; Harmonic-Cos (Gromos96) potential rmsd:     1.42
+;;  5     4       13         2     120.24     36.10 ; Harmonic-Cos (Gromos96) potential rmsd:     1.29
+;;  5     6       7          2     130.97     28.99 ; Harmonic-Cos (Gromos96) potential rmsd:     2.23
+;;  6     7       8          2     120.97     67.17 ; Harmonic-Cos (Gromos96) potential rmsd:     1.96
+;;  7     8       9          2     94.59     37.43 ; Harmonic-Cos (Gromos96) potential rmsd:     1.11
+;;  7     8       11         2     93.94     26.90 ; Harmonic-Cos (Gromos96) potential rmsd:     1.61
+;;  8     9       10         2     223.50     34.40 ; Harmonic-Cos (Gromos96) potential rmsd:     1.69
+;;  8     11      12         2     131.37     33.46 ; Harmonic-Cos (Gromos96) potential rmsd:     1.52
+;;  9     8       11         2     127.99     29.46 ; Harmonic-Cos (Gromos96) potential rmsd:     1.02
+;; 13     14      15         2     131.64     37.77 ; Harmonic-Cos (Gromos96) potential rmsd:     2.09
+;; 14     15      16         2     120.92     55.79 ; Harmonic-Cos (Gromos96) potential rmsd:     1.59
+;; 15     16      17         2     94.34     34.00 ; Harmonic-Cos (Gromos96) potential rmsd:     1.18
+;; 15     16      19         2     96.31     28.81 ; Harmonic-Cos (Gromos96) potential rmsd:     1.32
+;; 16     17      18         2     127.62     30.38 ; Harmonic-Cos (Gromos96) potential rmsd:     1.17
+;; 16     19      20         2     129.29     32.45 ; Harmonic-Cos (Gromos96) potential rmsd:     1.06
+;; 17     16      19         2     128.25     41.61 ; Harmonic-Cos (Gromos96) potential rmsd:     1.38
 
-[exclusions]
- 1 2 3 4
- 2 3 4
- 3 4
+[angles]
+; i     j       k       funct   angle   force_constant
+; ReB
+
+[dihedrals]
+; i     j       k    l       funct   phase       kd    pn
+
+;Improper 
+; i     j       k    l       funct   angle       kd    

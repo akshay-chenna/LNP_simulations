@@ -256,14 +256,23 @@ lipidsa.update({   #  1    2    3   4   5    6    7   8     9  10  11  12  13  1
     "TZP"   : (moltype," OH N1 CM1 BB1 SC1 SC2 SC3 SC4 SC5 OC1 CAX CA1 CA2 CA3 CA4 CM2 BB2 SD1 SD2 SD3 SD4 SD5 OC2 CBX CB1 CB2 CB3 CB4"),
 })
 
+'''
 moltype = "L59_IONIZABLE"
 lipidsx[moltype] = (    0,  0,    0,   0,   0,   0,   0,  0, 1,  1,  0,  0,  0,  0,  1,  1,  0,  0,  0,  0,  0,  0 )
 lipidsy[moltype] = (  0.5,  0.5,  1,   0, 0.5, 0.5,   1,  1, 1,  1,  1,  1,  0,  0,  0,  0,  0,  0,  0,  0,  1,  1 )
 lipidsz[moltype] = (    9,  8,  8.5, 8.5,   6,   7,   3,  2, 1,  0,  0,  1,  3,  2,  1,  0,  1,  0,  4,  5,  5,  4 )
 lipidsa.update({   #     1  2     3     4    5    6   7   8  9   10  11  12  13  14  15  16  17  18  19  20  21  22
     "L59"   : (moltype," OH N1  CZ1   CZ2   N2   CZ3 OA1 CA1 CA2 CA3 CA4 CA5 OB1 CB1 CB2 CB3 CB4 CB5 CB6 CB7 CA6 CA7"),
-})                       
-                         
+}) 
+'''
+moltype = "L59_IONIZABLE"
+lipidsx[moltype] = (     0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  1,  1,  0,  0,  0,  0,  0,  0,  1,  1, )
+lipidsy[moltype] = (     0.5,0.5,0.5,0.5,0,  0,  0,  0,  0,  0,  0,  0,  1,  1,  1,  1,  1,  1,  1,  1, )
+lipidsz[moltype] = (     9,  8,  7,  6,  5,  4,  3,  2,  1,  0,  1,  0,  5,  4,  3,  2,  1,  0,  1,  0, )
+lipidsa.update({   #     1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20
+    "L59"   : (moltype," OH  N1  CZ  NZ  CA1 CA2 OA  CA3 CA4 CA5 CA6 CA7 CB1 CB2 OB  CB3 CB4 CB5 CB6 CB7"),
+})                      
+
 moltype = "IONIZABLE LIPIDS2" 
 lipidsx[moltype] = (    .5,  .5,  0,  0,  0, .5,  0,  0,  1,  1,  1,  2,  1,  1,  1 )
 lipidsy[moltype] = (     0,   0,  0,  0,  0, .5,  0,  0,  0,  0,  0, .5,  0,  0,  0 )

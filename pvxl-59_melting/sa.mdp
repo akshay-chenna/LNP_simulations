@@ -1,6 +1,6 @@
 integrator               = md
 dt                       = 0.02 
-nsteps                   = 70000000 
+nsteps                   = 40000000 
 nstxout                  = 0 
 nstvout                  = 0
 nstfout                  = 0
@@ -33,23 +33,24 @@ rvdw                     = 1.1
 tcoupl                   = v-rescale 
 tc-grps                  = Bilayer Solvent
 tau-t                    = 1.0 1.0
-ref-t                    = 263 263
+ref-t                    = 303 303
 ensemble-temperature-setting = variable
 
 ; annealing
 annealing          = single single
 annealing_npoints  = 3   3
-annealing_temp     = 263 333 263     263 333 263
-annealing_time     = 0 700000 1400000 0 700000 1400000
+annealing_temp     = 303 263 303     303 263 303
+annealing_time     = 0 400000 800000 0 400000 800000
 
 Pcoupl                   = c-rescale
+;Pcoupl                   = Parrinello-Rahman
 Pcoupltype               = semiisotropic
 tau-p                    = 12.0
 compressibility          = 3.4e-4 3.4e-4
 ref-p                    = 1.0 1.0
 
 gen_vel                  = no
-continuation             = no
+continuation             = yes
 constraints		 = none
 constraint-algorithm	 = Lincs
 lincs-warnangle		 = 90 

@@ -37,28 +37,25 @@ def find_angles_from_bonds(bonds):
 
 # --- Your Input Data ---
 bond_list_str = """
-1,3
-1,4
+1,2
 2,3
-2,4
-2,6
+3,4
+4,5
 5,6
+6,7
 7,8
 8,9
 9,10
+8,11
 11,12
-12,8
+4,13
 13,14
 14,15
 15,16
-17,14
+16,17
 17,18
-19,13
+16,19
 19,20
-20,5
-21,5
-21,22
-22,7
 """
 
 # Convert the string input into a list of tuples

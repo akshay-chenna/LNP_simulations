@@ -28,7 +28,7 @@ rvdw                     = 1.1
 tcoupl                   = berendsen 
 tc-grps                  = Bilayer Solvent
 tau-t                    = 1.0 1.0
-ref-t                    = 263 263
+ref-t                    = 303 303
 
 Pcoupl                   = c-rescale
 Pcoupltype               = semiisotropic
@@ -37,6 +37,6 @@ compressibility          = 3e-4 3e-4
 ref-p                    = 1.0 1.0
 
 gen_vel                  = yes
-gen_temp                 = 263
+gen_temp                 = 303
 lincs-order              = 12
 lincs-iter               = 2
