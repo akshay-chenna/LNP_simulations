@@ -1,0 +1,23 @@
+#include "martini_v3.0.0.itp"
+#include "martini_v3.0.0_ffbonded_v2_openbeta.itp"
+#include "martini_v3.0.0_phospholipids_PC_v2_openbeta.itp"
+#include "martini_v3.0.0_sterols_v1.itp"
+#include "L59.itp"
+#include "martini_v3.0.0_solvents_v1.itp"
+#include "martini_v3.0.0_ions_v1.itp"
+
+[ system ]
+; name
+INSANE! Membrane UpperLeaflet>DSPC:CHOL:L59=3.0:4.0:3.0 LowerLeaflet>DSPC:CHOL:L59=3.0:4.0:3.0
+
+[ molecules ]
+; name  number
+DSPC            43
+CHOL            57
+L59             43
+DSPC            43
+CHOL            57
+L59             43
+W             2529
+NA              28
+CL              28

@@ -1,0 +1,58 @@
+integrator               = md
+dt                       = 0.02 
+nsteps                   = 90000000 
+nstxout                  = 0 
+nstvout                  = 0
+nstfout                  = 0
+nstlog                   = 25000 
+nstxout-compressed       = 25000
+nstenergy                = 25000
+compressed-x-precision   = 100
+
+comm-mode		 = Linear
+nstcomm                  = 100
+comm-grps                = Bilayer Solvent
+
+cutoff-scheme            = Verlet
+nstlist                  = 20
+nsttcouple               = 20
+nstpcouple               = 20
+rlist                    = 1.35
+verlet-buffer-tolerance  = -1
+ns_type                  = grid
+pbc                      = xyz
+
+coulombtype              = reaction-field 
+rcoulomb                 = 1.1
+epsilon_r                = 15    ; 2.5 (with polarizable water)
+epsilon_rf               = 0
+vdw_type                 = cutoff  
+vdw-modifier             = Potential-shift-verlet
+rvdw                     = 1.1
+
+tcoupl                   = v-rescale 
+tc-grps                  = Bilayer Solvent
+tau-t                    = 1.0 1.0
+ref-t                    = 353 353
+ensemble-temperature-setting = variable
+
+; annealing
+annealing          = single single
+annealing_npoints  = 3   3
+annealing_temp     = 353 263 353     353 263 353
+annealing_time     = 0 900000 1800000 0 900000 1800000
+
+Pcoupl                   = c-rescale
+;Pcoupl                   = Parrinello-Rahman
+Pcoupltype               = semiisotropic
+tau-p                    = 12.0
+compressibility          = 3.4e-4 3.4e-4
+ref-p                    = 1.0 1.0
+
+gen_vel                  = no
+continuation             = yes
+constraints		 = none
+constraint-algorithm	 = Lincs
+lincs-warnangle		 = 90 
+lincs-order              = 8
+lincs-iter               = 2
